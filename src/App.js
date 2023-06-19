@@ -1,12 +1,16 @@
 import "./App.css";
 import Weather from "./Weather";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Weather Application Using React in VS Code </h1>
-      <Weather />
-    </div>
+    <container>
+      <div className="App">
+        <h1> Weather Application Using React in VS Code </h1>
+        <Weather />
+        <Footer />
+      </div>
+    </container>
   );
 }
 
